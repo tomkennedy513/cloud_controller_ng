@@ -1,0 +1,59 @@
+lib/cloud_controller/install_buildpacks.rb
+  817c6d19a36d361e 42-43
+app/jobs/runtime/buildpack_installer_factory.rb
+  817c6d19a36d361e 59-60
+spec/unit/jobs/runtime/buildpack_installer_factory_spec.rb
+  817c6d19a36d361e 18,37,48-59,81,99,113,127,145,172,190,200,217,292,312,331,342,353
+spec/unit/jobs/runtime/create_buildpack_installer_spec.rb
+  817c6d19a36d361e 81-116
+spec/unit/lib/cloud_controller/install_buildpacks_spec.rb
+  817c6d19a36d361e 46,80,117,120,123,224,238,294
+app/jobs/runtime/create_buildpack_installer.rb
+  9b552272261547e9 5-11,22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "c3aa744abe9a2de90d6d9f4a2447136fb5cdf40f",
+  "prompts": {
+    "621d249f490e43b3": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "36b70dfa-1277-4b1e-bd35-16e2ec0e3bc4",
+        "model": "claude-4.6-opus-high"
+      },
+      "human_author": "Tom Kennedy <tom.kennedy@broadcom.com>",
+      "messages": [],
+      "total_additions": 28,
+      "total_deletions": 1,
+      "accepted_lines": 27,
+      "overriden_lines": 0
+    },
+    "817c6d19a36d361e": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "68807a39-6501-414c-b767-4ea5f2003be7",
+        "model": "claude-4.6-opus-high"
+      },
+      "human_author": "Tom Kennedy <tom.kennedy@broadcom.com>",
+      "messages": [],
+      "total_additions": 109,
+      "total_deletions": 26,
+      "accepted_lines": 108,
+      "overriden_lines": 0
+    },
+    "9b552272261547e9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "921cec0a-307f-446c-a178-0cb71c82b191",
+        "model": "claude-4.6-opus-high"
+      },
+      "human_author": "Tom Kennedy <tom.kennedy@broadcom.com>",
+      "messages": [],
+      "total_additions": 9,
+      "total_deletions": 2,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
